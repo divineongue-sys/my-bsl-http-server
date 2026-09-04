@@ -39,8 +39,6 @@ while (1) {
         var BODY = "";
         var HTTP = "";
 
-        // Extract the requested path using regex + substr (strings aren't
-        // objects in BSL, so .indexOf()/.match() style calls aren't valid)
         var match = regex("/.* HTTP/1.1", data);
         var path = substr(match, 0, sizeof(match) - 9);
         print("File Requested: " + path);
