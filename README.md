@@ -39,10 +39,10 @@ You can also watch the terminal while you do this — it prints out each request
  
 Screenshots are in the `documentation/` folder.
  
-**`/` route**
+**route**
 ![Home route](documentation/home.png)
  
-**`/about` route**
+**about route**
 ![About route](documentation/about.png)
  
 **Unknown route (404 page)**
