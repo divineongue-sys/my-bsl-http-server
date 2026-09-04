@@ -5,8 +5,8 @@
 This is a small HTTP server built using the Bonezegei Scripting Language (BSL) and its socket library, as part of Lab 1: Building an HTTP Server using Socket. Instead of using a ready-made web framework, the server handles everything manually such as opening a socket, binding it to a port, listening for connections, reading the raw HTTP request, and writing back the response itself.
  
 It runs on port 8080 and has three routes:
-- `/` — the homepage
-- `/about` — an about page
+- route — the homepage
+- about route — an about page
 - anything else — a 404 page
 ## Installation & Setup Guide
  
@@ -37,7 +37,7 @@ You can also watch the terminal while you do this — it prints out each request
  
 ## Screenshots
  
-Screenshots are in the `documentation/` folder.
+Screenshots are in the `documentation` folder.
  
 **route**
 ![Home route](documentation/home.png)
