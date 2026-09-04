@@ -13,7 +13,7 @@ It runs on port 8080 and has three routes:
 1. Install the Bonezegei Scripting Language interpreter. In VS Code, go to Extensions, search "Bonezegei," and install the Bonezegei Scripting Language Formatter — it has instructions for installing the interpreter for your OS. (Windows/Linux: follow the guide directly. Mac/Android: use GitHub Codespaces with the Linux instructions.)
 2. Clone this repo and open it in VS Code:
 ```bash
-   git clone https://divineongue-sys.com/<your-username>/my-bsl-http-server.git
+   git clone https://github.com/divineongue-sys/my-bsl-http-server.git
    cd my-bsl-http-server
 ```
 3. Install the socket library:
