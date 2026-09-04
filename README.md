@@ -7,10 +7,10 @@ This is a small HTTP server built using the Bonezegei Scripting Language (BSL) a
 It runs on port 8080 and has three routes:
 - / route — the homepage
 - / about route — an about page
-- / anything/unmmaped route else — a 404 page
+- / anything else/unmmaped route — a 404 page
 ## Installation & Setup Guide
  
-1. Install the Bonezegei Scripting Language interpreter. In VS Code, go to Extensions, search "Bonezegei," and install the Bonezegei Scripting Language Formatter — it has instructions for installing the interpreter for your OS. (Windows/Linux: follow the guide directly. Mac/Android: use GitHub Codespaces with the Linux instructions.)
+1. Install the Bonezegei Scripting Language interpreter. In VS Code, go to Extensions, search "Bonezegei," and install the Bonezegei Scripting Language Formatter. It has instructions for installing the interpreter for your OS. (Windows/Linux: follow the guide directly. Mac/Android: use GitHub Codespaces with the Linux instructions.)
 2. Clone this repo and open it in VS Code:
 ```bash
    git clone https://github.com/divineongue-sys/my-bsl-http-server.git
@@ -30,19 +30,20 @@ It runs on port 8080 and has three routes:
  
 With the server running, open a browser and try these:
  
-- `http://localhost:8080/` → shows the homepage
-- `http://localhost:8080/about` → shows the about page
-- `http://localhost:8080/anything` → shows a 404 page, since that route doesn't exist
-You can also watch the terminal while you do this — it prints out each request as it comes in.
+- `http://localhost:8080/` — shows the homepage
+- `http://localhost:8080/about` — shows the about page
+- `http://localhost:8080/anything` — shows a 404 page, since that route doesn't exist
+
+You can also watch the terminal while you do this, it prints out each request as it comes in.
  
 ## Screenshots
  
 Screenshots are in the `documentation` folder.
  
-**route**
+**/ route**
 ![Home route](documentation/home.png)
  
-**about route**
+**/ about route**
 ![About route](documentation/about.png)
  
 **Unknown route (404 page)**
