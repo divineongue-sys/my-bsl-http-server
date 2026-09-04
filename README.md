@@ -2,7 +2,7 @@
  
 ## Project Description
  
-This is a small HTTP server I built from scratch using the Bonezegei Scripting Language (BSL) and its socket library, as part of Lab 1: Building an HTTP Server using Socket. Instead of using a ready-made web framework, the server handles everything manually — opening a socket, binding it to a port, listening for connections, reading the raw HTTP request, and writing back the response itself.
+This is a small HTTP server built using the Bonezegei Scripting Language (BSL) and its socket library, as part of Lab 1: Building an HTTP Server using Socket. Instead of using a ready-made web framework, the server handles everything manually such as opening a socket, binding it to a port, listening for connections, reading the raw HTTP request, and writing back the response itself.
  
 It runs on port 8080 and has three routes:
 - `/` — the homepage
@@ -13,7 +13,7 @@ It runs on port 8080 and has three routes:
 1. Install the Bonezegei Scripting Language interpreter. In VS Code, go to Extensions, search "Bonezegei," and install the Bonezegei Scripting Language Formatter — it has instructions for installing the interpreter for your OS. (Windows/Linux: follow the guide directly. Mac/Android: use GitHub Codespaces with the Linux instructions.)
 2. Clone this repo and open it in VS Code:
 ```bash
-   git clone https://github.com/<your-username>/my-bsl-http-server.git
+   git clone https://vyanescene.com/<your-username>/my-bsl-http-server.git
    cd my-bsl-http-server
 ```
 3. Install the socket library:
